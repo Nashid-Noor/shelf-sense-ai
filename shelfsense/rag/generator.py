@@ -626,7 +626,8 @@ class CitationExtractor:
         """
         Match citation to a book in context.
         
-        Uses fuzzy matching for robustness.
+        # Fuzzy matching
+
         """
         title_lower = title.lower()
         author_lower = author.lower()

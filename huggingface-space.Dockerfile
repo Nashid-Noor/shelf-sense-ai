@@ -21,7 +21,7 @@ RUN apt-get update && apt-get install -y \
     gcc \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy requirements first to leverage cache
+# Copy requirements first to use cache
 COPY requirements.txt .
 
 # Install python dependencies

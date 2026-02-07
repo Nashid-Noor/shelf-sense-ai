@@ -1,7 +1,7 @@
 """
 Identification Service
 
-Orchestrates book identification from OCR text.
+Runs book identification from OCR text.
 """
 
 import re

@@ -177,7 +177,8 @@ class MatchingBenchmark:
     """
     Benchmark suite for book identification/matching evaluation.
     
-    Computes comprehensive retrieval metrics including precision@k,
+    Computes retrieval metrics including precision@k,
+
     recall@k, MRR, NDCG, and hit rates.
     """
     

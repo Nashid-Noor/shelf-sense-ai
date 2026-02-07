@@ -1,7 +1,7 @@
 """
 Detector Ensemble for ShelfSense AI
 
-Orchestrates layout classification and detection routing.
+Layout classification and detection routing.
 Combines results from spine and cover detectors based on scene type.
 """
 
@@ -66,7 +66,7 @@ class DetectorEnsemble:
     """
     Unified interface for book detection.
     
-    Orchestrates:
+    Manages:
     1. Layout classification to determine scene type
     2. Routing to appropriate detector(s)
     3. Merging and deduplicating results

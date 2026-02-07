@@ -18,7 +18,7 @@ from loguru import logger
 @dataclass
 class BookMetadata:
     """
-    Comprehensive book metadata.
+    Book metadata from external sources.
     
     Combines data from multiple sources.
     """

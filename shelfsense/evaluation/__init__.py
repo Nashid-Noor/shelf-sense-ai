@@ -1,7 +1,6 @@
 """
-ShelfSense AI Evaluation Module.
+Evaluation toolkit for:
 
-Comprehensive evaluation toolkit for:
 - Object detection (mAP, IoU, precision/recall)
 - OCR accuracy (CER, WER, exact match)
 - Book identification (P@k, MRR, NDCG)

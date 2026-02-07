@@ -155,7 +155,7 @@ def get_request_id() -> str:
 
 class RequestLoggingMiddleware(BaseHTTPMiddleware):
     """
-    FastAPI middleware for comprehensive request/response logging.
+    FastAPI middleware for request/response logging.
     """
     
     def __init__(self, app: FastAPI, config: Optional[LoggingConfig] = None):

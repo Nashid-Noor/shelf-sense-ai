@@ -423,7 +423,8 @@ class RAGBenchmark:
         """
         Estimate hallucination rate using simple heuristics.
         
-        A more robust approach would use an LLM judge.
+        # Ideally use an LLM judge here
+
         """
         if not answer or not doc_contents:
             return 0.0

@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "shelfsense-ai"
 version = "1.0.0"
-description = "Vision-Language Powered Personal Library Intelligence"
+description = "Personal library digitizer"
 authors = ["ShelfSense AI Team"]
 readme = "README.md"
 license = "MIT"

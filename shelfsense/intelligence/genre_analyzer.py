@@ -1,7 +1,7 @@
 """
 Genre Analyzer for ShelfSense AI
 
-Comprehensive genre analysis for book collections:
+Genre analysis for book collections:
 - Genre classification from text/metadata
 - Genre hierarchy and relationships
 - Collection genre distribution

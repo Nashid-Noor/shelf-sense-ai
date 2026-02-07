@@ -120,7 +120,7 @@ class DiversityCalculator:
     
     def calculate(self, books: list[BookMetrics]) -> DiversityReport:
         """
-        Calculate comprehensive diversity metrics.
+        Calculate diversity metrics.
         
         Args:
             books: List of books with metadata

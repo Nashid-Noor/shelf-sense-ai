@@ -202,7 +202,8 @@ class StringSimilarity:
         """
         Compute similarity ratio between two strings.
         
-        Uses SequenceMatcher for robust fuzzy matching.
+        # Use SequenceMatcher for fuzzy matching
+
         
         Args:
             s1: First string

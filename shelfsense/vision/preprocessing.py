@@ -40,7 +40,7 @@ class PreprocessConfig:
 
 class ImagePreprocessor:
     """
-    Comprehensive image preprocessing pipeline.
+    Image preprocessing pipeline.
     
     Handles the transformation of raw uploaded images into
     formats suitable for each stage of the vision pipeline.
@@ -327,7 +327,8 @@ class AugmentationPipeline:
     @staticmethod
     def get_ocr_augmentations(p: float = 0.3) -> A.Compose:
         """
-        Light augmentations for OCR robustness.
+        # Light augmentations for OCR
+
         
         Careful not to destroy text readability.
         """
